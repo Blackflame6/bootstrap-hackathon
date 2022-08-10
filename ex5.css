@@ -2,7 +2,8 @@ html {
   font-size: 62.5%;
 }
 body {
- 
+  background:url(./images/43hoto-1606342384762-ddf691b59885.avif);
+  background-size: cover;
   font-family: "Inter", Arial, Helvetica, sans-serif;
 }
 
@@ -32,7 +33,8 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #fff;
+  background:url(./images/wrphoto-1625708458528-802ec79b1ed8.avif);
+  background-size: cover;
 }
 .card {
   background: #fff;
@@ -41,7 +43,7 @@ body {
   border-radius: 10px;
   overflow: hidden;
   height: 55vh;
-  box-shadow: 0 0 25px 5px #ccc;
+ 
   box-sizing: border-box;
   transition: transform 0.2s;
   margin: 0 3rem;
@@ -51,7 +53,7 @@ body {
 }
 .card:hover {
   transform: scale(1.1);
-  border: 5px solid red;
+  border: 5px solid #6F58C9;
 }
 
 .header {
