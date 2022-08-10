@@ -1,5 +1,7 @@
 html {
   font-size: 62.5%;
+  /* max-width: 150rem;
+  margin: auto; */
 }
 
 
@@ -33,26 +35,26 @@ html {
   color: #222;
   padding-top: 2rem;
   
+  margin: auto;
+  
 
   
 }
 .promo {
   text-align: center;
-  font-size: 3rem;
+  font-size: 5rem;
   font-weight: bold;
   width: 50vw;
+  margin: auto;
 }
-.img1 {
-  border-radius: 50%;
-  width: 3rem;
-  height:3rem;
-  margin: 5rem;
- 
-}
+
 .img2 {
   border-radius: 50%;
-  width: 30rem;
-  height:30rem;
+  width: 15rem;
+  height:15rem;
+  margin: 0 2rem;
+  margin-top: 1rem;
+  cursor: pointer;
  
  
 }
@@ -70,4 +72,21 @@ html {
   width: 100%;
   height: 15;
   margin-top: 5rem;
+}
+
+#services {
+  padding:1rem 0;
+
+  
+}
+.service-img {
+  width:15rem;
+  padding-bottom: 3rem;
+  border-radius: 40px;
+
+}
+
+.services {
+  width: 30rem;
+  margin: auto;
 }

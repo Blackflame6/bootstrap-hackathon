@@ -1,0 +1,161 @@
+html {
+  font-size: 62.5%;
+}
+body {
+ 
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  background-color:#889aea;
+  color: #000;
+  padding: 0.5rem;
+}
+.navbar-brand {
+  color: #000;
+  font-size: 2rem;
+}
+.nav-link {
+  color: #000;
+}
+.nav-link.active {
+  color: #000;
+}
+
+.btn:hover {
+  background-color: #6F58C9;
+
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fff;
+}
+.card {
+  background: #fff;
+  width: 32rem;
+  font-size: 2rem;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 55vh;
+  box-shadow: 0 0 25px 5px #ccc;
+  box-sizing: border-box;
+  transition: transform 0.2s;
+  margin: 0 3rem;
+}
+.card-two {
+  height: 60vh;
+}
+.card:hover {
+  transform: scale(1.1);
+  border: 5px solid red;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  text-align: left;
+  color: white;
+  height: 18rem;
+  box-sizing: border-box;
+  padding: 2rem;
+  line-height: 1;
+  padding-left: 3rem;
+  padding-left: 5rem;
+}
+
+.header p {
+  font-size: 1rem;
+}
+.header-one,
+.header-three {
+  background: #889aea;
+}
+.header-two {
+  background: #6F58C9;
+  height: 20rem;
+}
+
+.prices {
+  font-size: 5rem;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 2rem;
+}
+ul {
+  list-style: none;
+  line-height: 1.75;
+  padding-left: 0;
+  padding: 1rem 0;
+}
+.btn {
+  background: #fff;
+  padding: 2.5rem 7rem;
+  font-size: 1rem;
+  border-radius: 40px;
+  border: 1px solid #000;
+  margin-top: 1rem;
+  cursor: pointer;
+  color: #000;
+  transition: transform 0.2s;
+}
+.btn-two {
+  margin-top: 1.5rem;
+}
+.btn-one:hover {
+  background: #45cbed;
+  color: #000;
+  border: 0;
+}
+.btn-two:hover {
+  background: #1235a9;
+  color: #fff;
+  border: 0;
+}
+
+.check {
+  color: green;
+  margin: 0 1rem;
+}
+.badge {
+  font-size: 2px;
+  background: #0a5d7279;
+  border-radius: 20px;
+  padding: 0.3rem 0.7rem;
+  color: #ccc;
+}
+.badge-two {
+  background-color: #0d236a62;
+}
+@media screen and (max-width: 500px){
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .card {
+    margin: 3rem 0;
+  }
+}
+
+@media screen and (max-width:1040px) {
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+}
